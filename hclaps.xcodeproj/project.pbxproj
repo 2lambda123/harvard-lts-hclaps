@@ -1,0 +1,126 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		6F18FF050E43AAA40053A63D /* ListChunk.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = ListChunk.java; path = src/edu/harvard/hcl/hclaps/bwav/chunks/ListChunk.java; sourceTree = "<group>"; };
+		6FB0EE401D1196B500E1D0D6 /* InvalidWaveHeaderException.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = InvalidWaveHeaderException.java; sourceTree = "<group>"; };
+		886FEE5605D9BD280091015F /* build.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
+		886FEE5705D9BD280091015F /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		886FEE5905D9BD280091015F /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; path = src; sourceTree = "<group>"; };
+		8892C864061E18790047113C /* dist */ = {isa = PBXFileReference; lastKnownFileType = folder; path = dist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		88230FFA05D9926E00FE8D22 = {
+			isa = PBXGroup;
+			children = (
+				6F18FF050E43AAA40053A63D /* ListChunk.java */,
+				886FEE5605D9BD280091015F /* build.xml */,
+				886FEE5905D9BD280091015F /* src */,
+				6FB0EE401D1196B500E1D0D6 /* InvalidWaveHeaderException.java */,
+				886FEE5705D9BD280091015F /* lib */,
+				8892C864061E18790047113C /* dist */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		8823100505D9929B00FE8D22 /* hclaps */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-emacs $(ACTION)";
+			buildConfigurationList = 0AA805D408BBAA4C008E12F1 /* Build configuration list for PBXLegacyTarget "hclaps" */;
+			buildPhases = (
+			);
+			buildToolPath = /Developer/Java/Ant/bin/ant;
+			dependencies = (
+			);
+			name = hclaps;
+			passBuildSettingsInEnvironment = 1;
+			productName = hclaps;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		88230FFE05D9926E00FE8D22 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 0AA805D808BBAA4C008E12F1 /* Build configuration list for PBXProject "hclaps" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 88230FFA05D9926E00FE8D22;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8823100505D9929B00FE8D22 /* hclaps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		0AA805D508BBAA4C008E12F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				PRODUCT_NAME = hclaps;
+			};
+			name = Debug;
+		};
+		0AA805D608BBAA4C008E12F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				PRODUCT_NAME = hclaps;
+			};
+			name = Release;
+		};
+		0AA805D908BBAA4C008E12F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		0AA805DA08BBAA4C008E12F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AA805D408BBAA4C008E12F1 /* Build configuration list for PBXLegacyTarget "hclaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA805D508BBAA4C008E12F1 /* Debug */,
+				0AA805D608BBAA4C008E12F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA805D808BBAA4C008E12F1 /* Build configuration list for PBXProject "hclaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA805D908BBAA4C008E12F1 /* Debug */,
+				0AA805DA08BBAA4C008E12F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88230FFE05D9926E00FE8D22 /* Project object */;
+}

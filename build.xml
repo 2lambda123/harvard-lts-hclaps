@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="hclaps" default="jar" basedir=".">
+    <property name="src" location="src"/>
+    <property name="doc" location="doc"/>
+    <property name="bin" location="bin"/>
+    <property name="lib" location="lib"/>
+    <property name="dist" location="dist"/>
+    <property name="jarfile" location="${dist}/${ant.project.name}.jar"/>
+    <property name="compile.debug" value="true"/>
+    <property file="hclaps.prop"/>
+
+    <fileset id="lib.jars" dir="${lib}">
+        <include name="**/*.jar"/>
+    </fileset>
+
+    <path id="lib.path">
+        <fileset refid="lib.jars"/>
+    </path>
+
+    <!-- Stub install target.  Install should depend on the 'jar' target,
+         and copy the built objects to the 'dist' directory. -->
+    <target name="install" description="Install jar" depends="jar">
+      <copy file="${jarfile}" todir="${hclaps}/common" overwrite="true"/>
+    </target>
+
+    <target name="release" description="Install jar" depends="jar">
+      <copy file="${jarfile}" todir="${user.home}/Sound Directions Release/installer/common" overwrite="true"/>
+    </target>
+
+    <target name="compile" description="Compile code">
+        <mkdir dir="${bin}"/>
+        <mkdir dir="${lib}"/>
+        <echo>*** hclaps.classpath: ${hclaps.classpath}</echo>
+        <javac srcdir="${src}" destdir="${bin}" includeAntRuntime="no" source="1.5" target="1.5" debug="${compile.debug}" classpath="${hclaps.classpath}">
+        </javac>
+        <javadoc sourcepath="${src}" destdir="${doc}" link="http://java.sun.com/j2se/1.5.0/docs/api/" classpath="${hclaps.classpath}">
+    		<fileset dir="${src}/edu/harvard/hcl/hclaps" includes="bwav/*.java bwav/chunks/*.java util/*.java umid/*.java usid/*.java, realaudio/*.java" />
+    	</javadoc>
+    </target>
+
+    <target name="jar" depends="compile" description="Build jar">
+        <copy file="${src}/edu/harvard/hcl/hclaps/util/tcfdata.xml" todir="${bin}/edu/harvard/hcl/hclaps/util" overwrite="true"/>
+        <mkdir dir="${dist}"/>
+        <jar jarfile="${jarfile}" basedir="${bin}" manifest="Manifest"/>
+    </target>
+
+    <target name="clean" description="Remove build and dist directories">
+        <delete dir="${bin}"/>
+        <delete dir="${dist}"/>
+        <delete dir="${doc}"/>
+        <delete dir="build"/>
+    </target>
+</project>

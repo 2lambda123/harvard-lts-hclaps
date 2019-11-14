@@ -1,0 +1,50 @@
+<!-- Build file for schema -->
+<!-- Robert La Ferla -->
+<project name="audiomarker" default="compile">
+
+<property name="jarfile" location="${ant.project.name}.jar"/>
+<property file="${user.home}/hclaps.prop"/>
+
+ <target name="install" depends="compile">
+  <copy file="${jarfile}" todir="${hclaps}/common" overwrite="true"/>
+ </target>
+
+ <target name="compile" depends="generate">
+  <javac srcdir="edu" classpath="${hclaps.classpath}">
+  </javac>
+  <delete file="${jarfile}"/>
+  <delete dir="html"/>
+  <jar destfile="${jarfile}">
+   <fileset dir="." includes="edu/harvard/hcl/hclaps/audiomarker/*.class"/>
+   <fileset dir="." includes="edu/harvard/hcl/hclaps/audiomarker/types/*.class"/>
+  </jar>
+  <javadoc sourcepath="edu" destdir="html" link="http://java.sun.com/j2se/1.5.0/docs/api/" classpath="${hclaps.classpath}">
+   <packageset dir="." includes="edu/harvard/hcl/hclaps/audiomarker,edu/harvard/hcl/hclaps/audiomarker/types"> 
+   </packageset>
+  </javadoc>
+ </target>
+
+ <target name="generate" depends="clean">
+  <java classname="org.exolab.castor.builder.SourceGenerator" classpath="${hclaps.classpath}">
+   <arg value="-i"/>
+   <arg value="hclAudioMarker.xsd"/>
+   <arg value="-package"/>
+   <arg value="edu.harvard.hcl.hclaps.audiomarker"/>
+   <arg value="-types"/>
+   <arg value="j2"/>
+   <arg value="-dest"/>
+   <arg value="."/>
+   <arg value="-generateImportedSchemas"/>
+  </java>
+ </target>
+
+ <target name="clean">
+  <delete dir="html"/>
+  <delete dir="edu"/>
+  <delete dir="com"/>
+  <delete dir="gov"/>
+  <delete dir="org"/>
+  <delete file="${jarfile}"/>
+ </target>
+
+</project>

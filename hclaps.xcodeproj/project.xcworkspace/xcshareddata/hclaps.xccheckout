@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C221F400-A5B2-45B7-87A5-D28BC7A02408</string>
+	<key>IDESourceControlProjectName</key>
+	<string>hclaps</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>d2e5e846-620c-0410-b2de-e5b9a4a4a183</key>
+		<string>svn+ssh://musmedia.fas.harvard.edu/repository</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>hclaps/hclaps.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>d2e5e846-620c-0410-b2de-e5b9a4a4a183</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>d2e5e846-620c-0410-b2de-e5b9a4a4a183</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>d2e5e846-620c-0410-b2de-e5b9a4a4a183</string>
+			<key>IDESourceControlWCCName</key>
+			<string>repository</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,52 @@
+<!-- Build file for schema -->
+<!-- Robert La Ferla -->
+<project name="Model" default="all">
+
+ <property name="jarfile" value="smil.jar"/>
+
+ <target name="all" depends="install">
+ </target>
+
+ <target name="generate" depends="clean">
+  <java classname="org.exolab.castor.builder.SourceGenerator">
+   <classpath>
+     <pathelement location="${user.home}/Library/Java/Extensions/castor-0.9.5.4-xml.jar"/>
+     <pathelement path="${java.class.path}"/>
+   </classpath>
+   <arg value="-i"/>
+   <arg value="smil20.xsd"/>
+   <arg value="-package"/>
+   <arg value="org.w3.2001.smil20"/>
+   <arg value="-types"/>
+   <arg value="j2"/>
+   <arg value="-dest"/>
+   <arg value="."/>
+   <arg value="-generateImportedSchemas"/>
+  </java>
+ </target>
+
+ <target name="clean">
+  <delete dir="html"/>
+  <delete dir="edu"/>
+  <delete dir="com"/>
+  <delete dir="gov"/>
+  <delete dir="org"/>
+  <delete file="${jarfile}"/>
+ </target>
+
+ <target name="install" depends="generate">
+  <javac srcdir="edu">
+  </javac>
+  <delete file="${jarfile}"/>
+  <delete dir="html"/>
+  <jar destfile="${jarfile}">
+   <fileset dir="." includes="org/w3/2001/smil20/*.class"/>
+   <fileset dir="." includes="org/w3/2001/smil20/types/*.class"/>
+  </jar>
+  <move file="${jarfile}" todir="${user.home}/Library/Java/Extensions"/>
+  <javadoc sourcepath="edu" destdir="html" link="http://java.sun.com/j2se/1.4.2/docs/api/">
+   <packageset dir="." includes="org/w3/2001/smil20,org/w3/2001/smil20/types"> 
+   </packageset>
+  </javadoc>
+ </target>
+</project>

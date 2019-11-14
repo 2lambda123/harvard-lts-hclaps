@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	6F091ADF14B65A9C00B44738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6F2194091499556500420736 /* CLITool.java */;
+		name = "CLITool.java: 199";
+		rLen = 23;
+		rLoc = 3746;
+		rType = 0;
+		vrLen = 828;
+		vrLoc = 3701;
+	};
+	6F091AE014B65A9C00B44738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC5439F1486F1D400DB857E /* GenericChunk.java */;
+		name = "GenericChunk.java: 39";
+		rLen = 0;
+		rLoc = 732;
+		rType = 0;
+		vrLen = 584;
+		vrLoc = 417;
+	};
+	6F091AE114B65A9C00B44738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC543921486F1D400DB857E /* RIFFChunk.java */;
+		name = "RIFFChunk.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 745;
+		vrLoc = 860;
+	};
+	6F091AE214B65A9C00B44738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6F296E921489866C00482232 /* WAVEFile.java */;
+		name = "WAVEFile.java: 107";
+		rLen = 0;
+		rLoc = 2645;
+		rType = 0;
+		vrLen = 1031;
+		vrLoc = 0;
+	};
+	6F091AE314B65A9C00B44738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC5439B1486F1D400DB857E /* WAVEDataChunkWriter.java */;
+		name = "WAVEDataChunkWriter.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 568;
+		vrLoc = 0;
+	};
+	6F091AE414B65A9C00B44738 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6F091AE514B65A9C00B44738 /* RIFFFile.java */;
+		name = "RIFFFile.java: 368";
+		rLen = 6;
+		rLoc = 8194;
+		rType = 0;
+		vrLen = 772;
+		vrLoc = 9100;
+	};
+	6F091AE514B65A9C00B44738 /* RIFFFile.java */ = {
+		isa = PBXFileReference;
+		name = RIFFFile.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/RIFFFile.java";
+		sourceTree = "<absolute>";
+	};
+	6F2194091499556500420736 /* CLITool.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = CLITool.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/util/CLITool.java";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 3497}}";
+			sepNavSelRange = "{3746, 23}";
+			sepNavVisRange = "{3701, 828}";
+		};
+	};
+	6F296E8C1489866C00482232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC543A71486F1D400DB857E /* Chunk.java */;
+		name = "Chunk.java: 136";
+		rLen = 39;
+		rLoc = 2658;
+		rType = 0;
+		vrLen = 897;
+		vrLoc = 133;
+	};
+	6F296E8D1489866C00482232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC543A31486F1D400DB857E /* RIFFFile.java */;
+		name = "RIFFFile.java: 256";
+		rLen = 14;
+		rLoc = 5251;
+		rType = 0;
+		vrLen = 1177;
+		vrLoc = 4766;
+	};
+	6F296E8E1489866C00482232 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC543981486F1D400DB857E /* DataChunk.java */;
+		name = "DataChunk.java: 102";
+		rLen = 38;
+		rLoc = 2426;
+		rType = 0;
+		vrLen = 1788;
+		vrLoc = 2229;
+	};
+	6F296E921489866C00482232 /* WAVEFile.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = WAVEFile.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/WAVEFile.java";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1895, 2392}}";
+			sepNavSelRange = "{2645, 0}";
+			sepNavVisRange = "{0, 1031}";
+		};
+	};
+	6F36DC9A12A5AEA000878D9E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	6F36DC9B12A5AEA000878D9E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	6F66C7C1146C8F5C00C0723F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6F66C7C2146C8F5C00C0723F /* AudioCut.java */;
+		name = "AudioCut.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 840;
+		vrLoc = 0;
+	};
+	6F66C7C2146C8F5C00C0723F /* AudioCut.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = AudioCut.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/util/AudioCut.java";
+		sourceTree = "<absolute>";
+	};
+	6F66C7C3146C8F5C00C0723F /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6F66C7C4146C8F5C00C0723F /* TimeRange.java */;
+		name = "TimeRange.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1054;
+		vrLoc = 4080;
+	};
+	6F66C7C4146C8F5C00C0723F /* TimeRange.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = TimeRange.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/util/TimeRange.java";
+		sourceTree = "<absolute>";
+	};
+	6F66C7C7146C8F5C00C0723F /* TimeLine.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = TimeLine.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/util/TimeLine.java";
+		sourceTree = "<absolute>";
+	};
+	6F67C4AE142D352E00A36E2E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FFA02C613282D7400A2E0F4 /* SMILFile.java */;
+		name = "SMILFile.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1413;
+		vrLoc = 131;
+	};
+	6FA0E35A12E77D050015AB8B /* AudioTypeSpecificData.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = AudioTypeSpecificData.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/realaudio/AudioTypeSpecificData.java";
+		sourceTree = "<absolute>";
+	};
+	6FC5438C1486F1D400DB857E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6F66C7C7146C8F5C00C0723F /* TimeLine.java */;
+		name = "TimeLine.java: 152";
+		rLen = 50;
+		rLoc = 4706;
+		rType = 0;
+		vrLen = 1763;
+		vrLoc = 913;
+	};
+	6FC5438D1486F1D400DB857E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC5438E1486F1D400DB857E /* Chunkable.java */;
+		name = "Chunkable.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 597;
+		vrLoc = 0;
+	};
+	6FC5438E1486F1D400DB857E /* Chunkable.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = Chunkable.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/Chunkable.java";
+		sourceTree = "<absolute>";
+	};
+	6FC5438F1486F1D400DB857E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC543901486F1D400DB857E /* IFFFile.java */;
+		name = "IFFFile.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 858;
+		vrLoc = 0;
+	};
+	6FC543901486F1D400DB857E /* IFFFile.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = IFFFile.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/IFFFile.java";
+		sourceTree = "<absolute>";
+	};
+	6FC543921486F1D400DB857E /* RIFFChunk.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = RIFFChunk.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/chunks/RIFFChunk.java";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 2288}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{860, 745}";
+		};
+	};
+	6FC543931486F1D400DB857E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC543941486F1D400DB857E /* IFFRandomAccessFile.java */;
+		name = "IFFRandomAccessFile.java: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1487;
+		vrLoc = 0;
+	};
+	6FC543941486F1D400DB857E /* IFFRandomAccessFile.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = IFFRandomAccessFile.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/IFFRandomAccessFile.java";
+		sourceTree = "<absolute>";
+	};
+	6FC543951486F1D400DB857E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC543961486F1D400DB857E /* BExtChunk.java */;
+		name = "BExtChunk.java: 371";
+		rLen = 39;
+		rLoc = 8295;
+		rType = 0;
+		vrLen = 1286;
+		vrLoc = 0;
+	};
+	6FC543961486F1D400DB857E /* BExtChunk.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = BExtChunk.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/chunks/BExtChunk.java";
+		sourceTree = "<absolute>";
+	};
+	6FC543981486F1D400DB857E /* DataChunk.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = DataChunk.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/chunks/DataChunk.java";
+		sourceTree = "<absolute>";
+	};
+	6FC543991486F1D400DB857E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FF13E0B12A6EB3300259DAF /* FormatChunk.java */;
+		name = "FormatChunk.java: 77";
+		rLen = 381;
+		rLoc = 1842;
+		rType = 0;
+		vrLen = 1198;
+		vrLoc = 1120;
+	};
+	6FC5439B1486F1D400DB857E /* WAVEDataChunkWriter.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = WAVEDataChunkWriter.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/WAVEDataChunkWriter.java";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 463}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 568}";
+		};
+	};
+	6FC5439C1486F1D400DB857E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FC5439D1486F1D400DB857E /* RIFFRandomAccessFile.java */;
+		name = "RIFFRandomAccessFile.java: 18";
+		rLen = 16;
+		rLoc = 332;
+		rType = 0;
+		vrLen = 1031;
+		vrLoc = 1849;
+	};
+	6FC5439D1486F1D400DB857E /* RIFFRandomAccessFile.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = RIFFRandomAccessFile.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/RIFFRandomAccessFile.java";
+		sourceTree = "<absolute>";
+	};
+	6FC5439F1486F1D400DB857E /* GenericChunk.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = GenericChunk.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/chunks/GenericChunk.java";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {946, 1495}}";
+			sepNavSelRange = "{732, 0}";
+			sepNavVisRange = "{417, 584}";
+		};
+	};
+	6FC543A31486F1D400DB857E /* RIFFFile.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = RIFFFile.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/RIFFFile.java";
+		sourceTree = "<absolute>";
+	};
+	6FC543A71486F1D400DB857E /* Chunk.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = Chunk.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/chunks/Chunk.java";
+		sourceTree = "<absolute>";
+	};
+	6FF13E0B12A6EB3300259DAF /* FormatChunk.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = FormatChunk.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/bwav/chunks/FormatChunk.java";
+		sourceTree = "<absolute>";
+	};
+	6FFA02C313282D7400A2E0F4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 6FA0E35A12E77D050015AB8B /* AudioTypeSpecificData.java */;
+		name = "AudioTypeSpecificData.java: 269";
+		rLen = 0;
+		rLoc = 5477;
+		rType = 0;
+		vrLen = 911;
+		vrLoc = 4966;
+	};
+	6FFA02C613282D7400A2E0F4 /* SMILFile.java */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.java;
+		name = SMILFile.java;
+		path = "/Users/dackerm/Current HCL-APS Workspace/repository/hclaps/src/edu/harvard/hcl/hclaps/util/SMILFile.java";
+		sourceTree = "<absolute>";
+	};
+	88230FFE05D9926E00FE8D22 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeTarget = 8823100505D9929B00FE8D22 /* hclaps */;
+		codeSenseManager = 6F36DC9B12A5AEA000878D9E /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					197.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					656,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					768,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 347494866;
+			PBXWorkspaceStateSaveDate = 347494866;
+		};
+		perUserProjectItems = {
+			6F091ADF14B65A9C00B44738 /* PBXTextBookmark */ = 6F091ADF14B65A9C00B44738 /* PBXTextBookmark */;
+			6F091AE014B65A9C00B44738 /* PBXTextBookmark */ = 6F091AE014B65A9C00B44738 /* PBXTextBookmark */;
+			6F091AE114B65A9C00B44738 /* PBXTextBookmark */ = 6F091AE114B65A9C00B44738 /* PBXTextBookmark */;
+			6F091AE214B65A9C00B44738 /* PBXTextBookmark */ = 6F091AE214B65A9C00B44738 /* PBXTextBookmark */;
+			6F091AE314B65A9C00B44738 /* PBXTextBookmark */ = 6F091AE314B65A9C00B44738 /* PBXTextBookmark */;
+			6F091AE414B65A9C00B44738 /* PBXTextBookmark */ = 6F091AE414B65A9C00B44738 /* PBXTextBookmark */;
+			6F296E8C1489866C00482232 /* PBXTextBookmark */ = 6F296E8C1489866C00482232 /* PBXTextBookmark */;
+			6F296E8D1489866C00482232 /* PBXTextBookmark */ = 6F296E8D1489866C00482232 /* PBXTextBookmark */;
+			6F296E8E1489866C00482232 /* PBXTextBookmark */ = 6F296E8E1489866C00482232 /* PBXTextBookmark */;
+			6F66C7C1146C8F5C00C0723F /* PBXTextBookmark */ = 6F66C7C1146C8F5C00C0723F /* PBXTextBookmark */;
+			6F66C7C3146C8F5C00C0723F /* PBXTextBookmark */ = 6F66C7C3146C8F5C00C0723F /* PBXTextBookmark */;
+			6F67C4AE142D352E00A36E2E /* PBXTextBookmark */ = 6F67C4AE142D352E00A36E2E /* PBXTextBookmark */;
+			6FC5438C1486F1D400DB857E /* PBXTextBookmark */ = 6FC5438C1486F1D400DB857E /* PBXTextBookmark */;
+			6FC5438D1486F1D400DB857E /* PBXTextBookmark */ = 6FC5438D1486F1D400DB857E /* PBXTextBookmark */;
+			6FC5438F1486F1D400DB857E /* PBXTextBookmark */ = 6FC5438F1486F1D400DB857E /* PBXTextBookmark */;
+			6FC543931486F1D400DB857E /* PBXTextBookmark */ = 6FC543931486F1D400DB857E /* PBXTextBookmark */;
+			6FC543951486F1D400DB857E /* PBXTextBookmark */ = 6FC543951486F1D400DB857E /* PBXTextBookmark */;
+			6FC543991486F1D400DB857E /* PBXTextBookmark */ = 6FC543991486F1D400DB857E /* PBXTextBookmark */;
+			6FC5439C1486F1D400DB857E /* PBXTextBookmark */ = 6FC5439C1486F1D400DB857E /* PBXTextBookmark */;
+			6FFA02C313282D7400A2E0F4 /* PBXTextBookmark */ = 6FFA02C313282D7400A2E0F4 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 6F36DC9A12A5AEA000878D9E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8823100505D9929B00FE8D22 /* hclaps */ = {
+		activeExec = 0;
+	};
+}

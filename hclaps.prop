@@ -1,0 +1,19 @@
+#hclaps=/usr/local/HCL-APS_1.0
+#hclapsdist=/dackerm/HCL-APS_1.0
+hclaps=/usr/local/HCL-APS_2.0
+hclapsdist=/dackerm/HCL-APS_2.0
+
+operator.firstname="Kaylie"
+operator.lastname="Ackerman"
+operator.organization="HCL-APS"
+operator.street1="8 Story Street"
+operator.street2=""
+operator.city="Cambridge"
+operator.region="MA"
+operator.countrycode="US"
+operator.postalcode="02138"
+operator.id="40480242"
+operator.email="kaylie_ackerman@fas.harvard.edu"
+
+hclaps.classpath=.:lib/xercesImpl.jar:lib/jdom.jar:lib/castor-0.9.5.4-xml.jar:lib/AES31.jar:lib/audiomarker.jar:lib/aes-model.jar:lib/junit-4.12.jar:lib/commons-csv-1.0.jar
+# :${hclaps}/common/hclaps.jar:${hclaps}/common/jhove/classes:${hclaps}/common/jhove/classes:${hclaps}/common/jhove/bin/JhoveApp.jar:${hclaps}/common/jhove/bin/jhove-handler.jar:${hclaps}/common/jhove/bin/jhove-module.jar:${hclaps}/common/dmart

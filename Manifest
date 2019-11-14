@@ -1,0 +1,49 @@
+Manifest-version: 1.0
+
+Name: edu/harvard/hcl/hclaps/bwav/
+Specification-Title: "HCLAPS Broadcast Wave API"
+Specification-Version: "1.0.1"
+Specification-Vendor: "HCL APS"
+Implementation-Title: "edu.harvard.hcl.hclaps.bwav"
+Implementation-Version: "build 1609"
+Implementation-Vendor: "HCL APS"
+
+Name: edu/harvard/hcl/hclaps/realaudio/
+Specification-Title: "HCLAPS Real Audio API"
+Specification-Version: "1.0.1"
+Specification-Vendor: "HCL APS"
+Implementation-Title: "edu.harvard.hcl.hclaps.realaudio"
+Implementation-Version: "1609"
+Implementation-Vendor: "HCL APS"
+
+Name: edu/harvard/hcl/hclaps/test/
+Specification-Title: "HCLAPS Unit Tests"
+Specification-Version: "1.0.1"
+Specification-Vendor: "HCL APS"
+Implementation-Title: "edu.harvard.hcl.hclaps.test"
+Implementation-Version: "1609"
+Implementation-Vendor: "HCL APS"
+
+Name: edu/harvard/hcl/hclaps/umid/
+Specification-Title: "HCLAPS UMID API"
+Specification-Version: "1.0.1"
+Specification-Vendor: "HCL APS"
+Implementation-Title: "edu.harvard.hcl.hclaps.umid"
+Implementation-Version: "1609"
+Implementation-Vendor: "HCL APS"
+
+Name: edu/harvard/hcl/hclaps/usid/
+Specification-Title: "HCLAPS USID API"
+Specification-Version: "1.0.1"
+Specification-Vendor: "HCL APS"
+Implementation-Title: "edu.harvard.hcl.hclaps.usid"
+Implementation-Version: "1609"
+Implementation-Vendor: "HCL APS"
+
+Name: edu/harvard/hcl/hclaps/util/
+Specification-Title: "HCLAPS Utility Classes"
+Specification-Version: "1.0.1"
+Specification-Vendor: "HCL APS"
+Implementation-Title: "edu.harvard.hcl.hclaps.util"
+Implementation-Version: "1609"
+Implementation-Vendor: "HCL APS"
