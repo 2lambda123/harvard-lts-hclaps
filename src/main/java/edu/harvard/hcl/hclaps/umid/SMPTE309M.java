@@ -24,87 +24,87 @@ import java.util.TimeZone;
 public class SMPTE309M {
 	private static SMPTE309M instance = null;
 	HashMap utcToCode;
-	HashMap codeToUTC;
+	HashMap<Integer, Float> codeToUTC;
 	
 	public SMPTE309M() {
 		Iterator it;
 
 		codeToUTC = new HashMap();
 		
-		codeToUTC.put(new Integer(0),new Float(0));  // UTC
-		codeToUTC.put(new Integer(1),new Float(-1));  // UTC-01:00
-		codeToUTC.put(new Integer(2),new Float(-2));  // UTC-02:00
-		codeToUTC.put(new Integer(3),new Float(-3));  // UTC-03:00
-		codeToUTC.put(new Integer(4),new Float(-4));  // UTC-04:00
-		codeToUTC.put(new Integer(5),new Float(-5));  // UTC-05:00
-		codeToUTC.put(new Integer(6),new Float(-6));  // UTC-06:00
-		codeToUTC.put(new Integer(7),new Float(-7));  // UTC-07:00
-		codeToUTC.put(new Integer(8),new Float(-8));  // UTC-08:00
-		codeToUTC.put(new Integer(9),new Float(-9));  // UTC-09:00
+		codeToUTC.put(0, (float)0);  // UTC
+		codeToUTC.put(1, (float)-1);  // UTC-01:00
+		codeToUTC.put(2, (float)-2);  // UTC-02:00
+		codeToUTC.put(3, (float)-3);  // UTC-03:00
+		codeToUTC.put(4, (float)-4);  // UTC-04:00
+		codeToUTC.put(5, (float)-5);  // UTC-05:00
+		codeToUTC.put(6, (float)-6);  // UTC-06:00
+		codeToUTC.put(7, (float)-7);  // UTC-07:00
+		codeToUTC.put(8, (float)-8);  // UTC-08:00
+		codeToUTC.put(9, (float)-9);  // UTC-09:00
 		
-		codeToUTC.put(new Integer(10),new Float(-0.5));  // UTC-00:30
-		codeToUTC.put(new Integer(11),new Float(-1.5));  // UTC-01:30
-		codeToUTC.put(new Integer(12),new Float(-2.5));  // UTC-02:30
-		codeToUTC.put(new Integer(13),new Float(-3.5));  // UTC-03:30
-		codeToUTC.put(new Integer(14),new Float(-4.5));  // UTC-04:30
-		codeToUTC.put(new Integer(15),new Float(-5.5));  // UTC-05:30
+		codeToUTC.put(10, (float)-0.5);  // UTC-00:30
+		codeToUTC.put(11, (float)-1.5);  // UTC-01:30
+		codeToUTC.put(12, (float)-2.5);  // UTC-02:30
+		codeToUTC.put(13, (float)-3.5);  // UTC-03:30
+		codeToUTC.put(14, (float)-4.5);  // UTC-04:30
+		codeToUTC.put(15, (float)-5.5);  // UTC-05:30
 
-		codeToUTC.put(new Integer(16),new Float(-10));  // UTC-10:00
-		codeToUTC.put(new Integer(17),new Float(-11));  // UTC-11:00
-		codeToUTC.put(new Integer(18),new Float(-12));  // UTC-12:00
-		codeToUTC.put(new Integer(19),new Float(13));  // UTC+13:00
-		codeToUTC.put(new Integer(20),new Float(12));  // UTC+12:00
-		codeToUTC.put(new Integer(21),new Float(11));  // UTC+11:00
-		codeToUTC.put(new Integer(22),new Float(10));  // UTC+10:00
-		codeToUTC.put(new Integer(23),new Float(9));  // UTC+09:00
-		codeToUTC.put(new Integer(24),new Float(8));  // UTC+08:00
-		codeToUTC.put(new Integer(25),new Float(7));  // UTC+07:00
+		codeToUTC.put(16, (float)-10);  // UTC-10:00
+		codeToUTC.put(17, (float)-11);  // UTC-11:00
+		codeToUTC.put(18, (float)-12);  // UTC-12:00
+		codeToUTC.put(19, (float)13);  // UTC+13:00
+		codeToUTC.put(20, (float)12);  // UTC+12:00
+		codeToUTC.put(21, (float)11);  // UTC+11:00
+		codeToUTC.put(22, (float)10);  // UTC+10:00
+		codeToUTC.put(23, (float)9);  // UTC+09:00
+		codeToUTC.put(24, (float)8);  // UTC+08:00
+		codeToUTC.put(25, (float)7);  // UTC+07:00
 		
-		codeToUTC.put(new Integer(26),new Float(-6.5));  // UTC-06:30
-		codeToUTC.put(new Integer(27),new Float(-7.5));  // UTC-07:30
-		codeToUTC.put(new Integer(28),new Float(-8.5));  // UTC-08:30
-		codeToUTC.put(new Integer(29),new Float(-9.5));  // UTC-09:30
-		codeToUTC.put(new Integer(30),new Float(-10.5));  // UTC-10:30
-		codeToUTC.put(new Integer(31),new Float(-11.5));  // UTC-11:30
+		codeToUTC.put(26, (float)-6.5);  // UTC-06:30
+		codeToUTC.put(27, (float)-7.5);  // UTC-07:30
+		codeToUTC.put(28, (float)-8.5);  // UTC-08:30
+		codeToUTC.put(29, (float)-9.5);  // UTC-09:30
+		codeToUTC.put(30, (float)-10.5);  // UTC-10:30
+		codeToUTC.put(31, (float)-11.5);  // UTC-11:30
 		
-		codeToUTC.put(new Integer(32),new Float(6));  // UTC+06:00
-		codeToUTC.put(new Integer(33),new Float(5));  // UTC+05:00
-		codeToUTC.put(new Integer(34),new Float(4));  // UTC+04:00
-		codeToUTC.put(new Integer(35),new Float(3));  // UTC+03:00
-		codeToUTC.put(new Integer(36),new Float(2));  // UTC+02:00
-		codeToUTC.put(new Integer(37),new Float(1));  // UTC+01:00
+		codeToUTC.put(32, (float)6);  // UTC+06:00
+		codeToUTC.put(33, (float)5);  // UTC+05:00
+		codeToUTC.put(34, (float)4);  // UTC+04:00
+		codeToUTC.put(35, (float)3);  // UTC+03:00
+		codeToUTC.put(36, (float)2);  // UTC+02:00
+		codeToUTC.put(37, (float)1);  // UTC+01:00
 		
-		codeToUTC.put(new Integer(38), null);  // Reserved: DO NOT USE
-		codeToUTC.put(new Integer(39), null);  // Reserved: DO NOT USE
+		codeToUTC.put(38,  null);  // Reserved: DO NOT USE
+		codeToUTC.put(39,  null);  // Reserved: DO NOT USE
 		
-		codeToUTC.put(new Integer(40), null);  // TP-3
-		codeToUTC.put(new Integer(41), null);  // TP-2
+		codeToUTC.put(40,  null);  // TP-3
+		codeToUTC.put(41,  null);  // TP-2
 		
-		codeToUTC.put(new Integer(42),new Float(11.5));  // UTC+11:30
-		codeToUTC.put(new Integer(43),new Float(10.5));  // UTC+10:30
-		codeToUTC.put(new Integer(44),new Float(9.5));  // UTC+09:30
-		codeToUTC.put(new Integer(45),new Float(8.5));  // UTC+08:30
-		codeToUTC.put(new Integer(46),new Float(7.5));  // UTC+07:30
-		codeToUTC.put(new Integer(47),new Float(6.5));  // UTC+06:30
+		codeToUTC.put(42, (float)11.5);  // UTC+11:30
+		codeToUTC.put(43, (float)10.5);  // UTC+10:30
+		codeToUTC.put(44, (float)9.5);  // UTC+09:30
+		codeToUTC.put(45, (float)8.5);  // UTC+08:30
+		codeToUTC.put(46, (float)7.5);  // UTC+07:30
+		codeToUTC.put(47, (float)6.5);  // UTC+06:30
 
-		codeToUTC.put(new Integer(48), null);  // TP-1
-		codeToUTC.put(new Integer(49), null);  // TP-0
+		codeToUTC.put(48,  null);  // TP-1
+		codeToUTC.put(49,  null);  // TP-0
 
-		codeToUTC.put(new Integer(50), new Float(12.75));  // UTC+12:45
-		codeToUTC.put(new Integer(51), null);  // Reserved: DO NOT USE
-		codeToUTC.put(new Integer(52), null);  // Reserved: DO NOT USE
-		codeToUTC.put(new Integer(53), null);  // Reserved: DO NOT USE
-		codeToUTC.put(new Integer(54), null);  // Reserved: DO NOT USE
-		codeToUTC.put(new Integer(55), null);  // Reserved: DO NOT USE
-		codeToUTC.put(new Integer(56), null);  // User defined
-		codeToUTC.put(new Integer(57), null);  // Undefined
+		codeToUTC.put(50,  (float)12.75);  // UTC+12:45
+		codeToUTC.put(51,  null);  // Reserved: DO NOT USE
+		codeToUTC.put(52,  null);  // Reserved: DO NOT USE
+		codeToUTC.put(53,  null);  // Reserved: DO NOT USE
+		codeToUTC.put(54,  null);  // Reserved: DO NOT USE
+		codeToUTC.put(55,  null);  // Reserved: DO NOT USE
+		codeToUTC.put(56,  null);  // User defined
+		codeToUTC.put(57,  null);  // Undefined
 		
-		codeToUTC.put(new Integer(58),new Float(5.5));  // UTC+05:30
-		codeToUTC.put(new Integer(59),new Float(4.5));  // UTC+04:30
-		codeToUTC.put(new Integer(60),new Float(3.5));  // UTC+03:30
-		codeToUTC.put(new Integer(61),new Float(2.5));  // UTC+02:30
-		codeToUTC.put(new Integer(62),new Float(1.5));  // UTC+01:30
-		codeToUTC.put(new Integer(63),new Float(0.5));  // UTC+00:30
+		codeToUTC.put(58, (float)5.5);  // UTC+05:30
+		codeToUTC.put(59, (float)4.5);  // UTC+04:30
+		codeToUTC.put(60, (float)3.5);  // UTC+03:30
+		codeToUTC.put(61, (float)2.5);  // UTC+02:30
+		codeToUTC.put(62, (float)1.5);  // UTC+01:30
+		codeToUTC.put(63, (float)0.5);  // UTC+00:30
 
 		// Create reverse map
 		utcToCode = new HashMap();
@@ -128,7 +128,7 @@ public class SMPTE309M {
 	public int codeForUTCOffset(float f) {
 		Integer i;
 		
-		i = (Integer)utcToCode.get(new Float(f));
+		i = (Integer)utcToCode.get(f);
 		return i.intValue();
 	}
 	

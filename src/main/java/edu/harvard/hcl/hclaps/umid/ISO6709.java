@@ -178,7 +178,7 @@ public class ISO6709 {
 
 		str += df.format(latitude.getDecimalDegrees());
 
-		lon = new Double(longitude.getDecimalDegrees());
+		lon = longitude.getDecimalDegrees();
 		if (longitude.getDecimalDegrees() >= 0.0) {
 			str += "+";
 		}
