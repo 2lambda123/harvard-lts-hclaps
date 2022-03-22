@@ -8,7 +8,8 @@
 
 package edu.harvard.hcl.hclaps.bwav;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Iterator;
 
 /**
  * CodingHistory.

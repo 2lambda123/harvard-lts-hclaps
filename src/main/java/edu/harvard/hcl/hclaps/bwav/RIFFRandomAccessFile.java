@@ -8,8 +8,12 @@
 
 package edu.harvard.hcl.hclaps.bwav;
 
-import java.io.*;
-import edu.harvard.hcl.hclaps.util.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+
+import edu.harvard.hcl.hclaps.util.ByteConvertor;
 
 /**
  * @author Robert La Ferla

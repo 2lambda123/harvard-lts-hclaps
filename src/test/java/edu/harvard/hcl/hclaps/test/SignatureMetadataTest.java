@@ -8,8 +8,10 @@
 
 package edu.harvard.hcl.hclaps.test;
 
+import edu.harvard.hcl.hclaps.umid.DMS;
+import edu.harvard.hcl.hclaps.umid.ISO6709;
+import edu.harvard.hcl.hclaps.umid.SignatureMetadata;
 import junit.framework.TestCase;
-import edu.harvard.hcl.hclaps.umid.*;
 
 public class SignatureMetadataTest extends TestCase {
 

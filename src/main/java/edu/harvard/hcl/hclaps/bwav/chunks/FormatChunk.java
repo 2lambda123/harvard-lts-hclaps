@@ -8,9 +8,11 @@
 
 package edu.harvard.hcl.hclaps.bwav.chunks;
 
-import java.io.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.*;
+import java.io.IOException;
+import java.util.EnumSet;
+
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFRandomAccessFile;
 
 /**
  * The FormatChunk contains information about the format of the audio in the data chunk.  It is a required chunk in all WAVE files.

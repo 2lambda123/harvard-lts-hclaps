@@ -8,11 +8,17 @@
 
 package edu.harvard.hcl.hclaps.bwav;
 
-import java.util.*;
-import java.io.*;
-import java.net.*;
-import edu.harvard.hcl.hclaps.bwav.chunks.*;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Iterator;
+
 import com.therockquarry.aes31.adl.TcfToken;
+
+import edu.harvard.hcl.hclaps.bwav.chunks.BExtChunk;
+import edu.harvard.hcl.hclaps.bwav.chunks.DataChunk;
+import edu.harvard.hcl.hclaps.bwav.chunks.FormatChunk;
 
 /**
  * A WAVE (or WAV) file is a Waveform audio format file.  It is RIFF file that is composed of a RIFFChunk, a FormatChunk, a DataChunk and possibly other chunks like the BExtChunk.  This class allows you to read, write, modify and access chunks in WAV files.  A delegate

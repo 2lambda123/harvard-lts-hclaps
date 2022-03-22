@@ -8,11 +8,16 @@
 
 package edu.harvard.hcl.hclaps.realaudio;
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.*;
-import edu.harvard.hcl.hclaps.bwav.chunks.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+
+import edu.harvard.hcl.hclaps.bwav.IFFFile;
+import edu.harvard.hcl.hclaps.bwav.IFFRandomAccessFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
+import edu.harvard.hcl.hclaps.bwav.chunks.Chunk;
 
 public class RealAudioFile extends IFFFile {
 	protected IFFRandomAccessFile iraf = null;

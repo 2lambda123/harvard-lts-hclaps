@@ -8,8 +8,9 @@
 
 package edu.harvard.hcl.hclaps.test;
 
+import edu.harvard.hcl.hclaps.umid.DMS;
+import edu.harvard.hcl.hclaps.umid.ISO6709;
 import junit.framework.TestCase;
-import edu.harvard.hcl.hclaps.umid.*;
 
 public class ISO6709Test extends TestCase  {
 

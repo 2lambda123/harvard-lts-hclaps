@@ -8,10 +8,11 @@
 
 package edu.harvard.hcl.hclaps.realaudio;
 
-import java.io.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.*;
-import edu.harvard.hcl.hclaps.bwav.chunks.*;
+import java.io.IOException;
+
+import edu.harvard.hcl.hclaps.bwav.IFFRandomAccessFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
+import edu.harvard.hcl.hclaps.bwav.chunks.Chunk;
 
 public class ContChunk extends Chunk implements Cloneable {
 	public static final int ID = 0x434F4E54; //CONT

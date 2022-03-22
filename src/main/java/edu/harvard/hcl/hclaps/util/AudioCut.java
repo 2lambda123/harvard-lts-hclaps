@@ -8,10 +8,19 @@
 
 package edu.harvard.hcl.hclaps.util;
 
-import java.util.*;
-import com.therockquarry.aes31.adl.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import com.therockquarry.aes31.adl.ADLSection;
+import com.therockquarry.aes31.adl.CutEditEntry;
+import com.therockquarry.aes31.adl.EventListSection;
+import com.therockquarry.aes31.adl.FileSourceIndexEntry;
+import com.therockquarry.aes31.adl.InvalidDataException;
+import com.therockquarry.aes31.adl.SequenceSection;
+import com.therockquarry.aes31.adl.SourceEntry;
+import com.therockquarry.aes31.adl.TcfToken;
 
 /**
  * @author Robert La Ferla

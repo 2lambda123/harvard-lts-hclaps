@@ -8,7 +8,7 @@
 
 package edu.harvard.hcl.hclaps.bwav;
 
-import edu.harvard.hcl.hclaps.bwav.chunks.*;
+import edu.harvard.hcl.hclaps.bwav.chunks.Chunk;
 
 /**
  * The Chunkable interface defines whether an object can add or remove chunks.

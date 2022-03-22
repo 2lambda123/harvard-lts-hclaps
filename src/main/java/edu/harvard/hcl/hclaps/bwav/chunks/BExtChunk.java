@@ -8,14 +8,22 @@
 
 package edu.harvard.hcl.hclaps.bwav.chunks;
 
-import java.io.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.*;
-import edu.harvard.hcl.hclaps.umid.*;
-import edu.harvard.hcl.hclaps.usid.*;
-import edu.harvard.hcl.hclaps.util.*;
-import org.jdom.input.*;
-import org.jdom.*;
+import java.io.File;
+import java.io.IOException;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.input.SAXBuilder;
+
+import edu.harvard.hcl.hclaps.bwav.CodingHistory;
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFRandomAccessFile;
+import edu.harvard.hcl.hclaps.umid.UMID;
+import edu.harvard.hcl.hclaps.usid.USID;
+import edu.harvard.hcl.hclaps.util.InvalidArgumentException;
 
 /**
  * BExtChunk contains Broadcast Extension (BEXT) metadata used in professional audio.

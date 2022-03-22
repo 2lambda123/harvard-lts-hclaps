@@ -9,8 +9,8 @@
 
 package edu.harvard.hcl.hclaps.realaudio;
 
-import java.io.*;
-import java.util.*;
+import java.io.IOException;
+
 import edu.harvard.hcl.hclaps.bwav.IFFRandomAccessFile;
 
 public abstract class BaseTypeSpecificData implements Cloneable {

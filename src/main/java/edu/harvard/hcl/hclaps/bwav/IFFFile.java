@@ -8,8 +8,9 @@
 
 package edu.harvard.hcl.hclaps.bwav;
 
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.chunks.*;
+import java.util.ArrayList;
+
+import edu.harvard.hcl.hclaps.bwav.chunks.Chunk;
 
 /**
  * An IFF file is a file in the Interchange File Format that contains data stored in tagged chunks.  It is a big-endian format.

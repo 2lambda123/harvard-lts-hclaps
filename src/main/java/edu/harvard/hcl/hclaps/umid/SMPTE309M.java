@@ -8,7 +8,14 @@
 
 package edu.harvard.hcl.hclaps.umid;
 
-import java.util.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.SimpleTimeZone;
+import java.util.TimeZone;
 
 /**
  * @author Robert La Ferla

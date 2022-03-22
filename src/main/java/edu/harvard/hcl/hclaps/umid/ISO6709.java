@@ -8,8 +8,9 @@
 
 package edu.harvard.hcl.hclaps.umid;
 
-import edu.harvard.hcl.hclaps.util.*;
-import java.text.*;
+import java.text.DecimalFormat;
+
+import edu.harvard.hcl.hclaps.util.ByteConvertor;
 
 /**
  * @author Robert La Ferla

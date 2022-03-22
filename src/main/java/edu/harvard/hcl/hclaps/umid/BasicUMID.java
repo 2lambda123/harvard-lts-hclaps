@@ -8,7 +8,8 @@
 
 package edu.harvard.hcl.hclaps.umid;
 
-import edu.harvard.hcl.hclaps.util.*;
+import edu.harvard.hcl.hclaps.util.ByteConvertor;
+import edu.harvard.hcl.hclaps.util.InvalidArgumentException;
 
 /**
  * @author Robert La Ferla
