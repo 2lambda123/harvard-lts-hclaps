@@ -8,8 +8,10 @@
 
 package edu.harvard.hcl.hclaps.bwav.chunks;
 
-import java.io.*;
-import edu.harvard.hcl.hclaps.bwav.*;
+import java.io.IOException;
+
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFRandomAccessFile;
 
 /*
  * This class is currently not supported.

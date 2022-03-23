@@ -8,8 +8,12 @@
 
 package edu.harvard.hcl.hclaps.umid;
 
-import java.util.*;
-import edu.harvard.hcl.hclaps.util.*;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+
+import edu.harvard.hcl.hclaps.util.ByteConvertor;
+import edu.harvard.hcl.hclaps.util.InvalidArgumentException;
 
 /**
  * @author Robert La Ferla

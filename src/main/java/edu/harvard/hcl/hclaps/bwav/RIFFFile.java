@@ -8,10 +8,20 @@
 
 package edu.harvard.hcl.hclaps.bwav;
 
-import java.io.*;
-import java.net.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.chunks.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.RandomAccessFile;
+import java.net.URI;
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import edu.harvard.hcl.hclaps.bwav.chunks.BExtChunk;
+import edu.harvard.hcl.hclaps.bwav.chunks.Chunk;
+import edu.harvard.hcl.hclaps.bwav.chunks.DataChunk;
+import edu.harvard.hcl.hclaps.bwav.chunks.FormatChunk;
+import edu.harvard.hcl.hclaps.bwav.chunks.GenericChunk;
+import edu.harvard.hcl.hclaps.bwav.chunks.RIFFChunk;
 
 /**
  * A RIFF file is a file in the Resource Interchange File Format that contains data stored in tagged chunks.  It is a little-endian format.

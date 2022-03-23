@@ -8,9 +8,11 @@
 
 package edu.harvard.hcl.hclaps.bwav.chunks;
 
-import java.io.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.*;
+import java.io.IOException;
+
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFRandomAccessFile;
+import edu.harvard.hcl.hclaps.bwav.WAVEFile;
 
 /**
  * The DataChunk contains the actual audio samples.  The samples are grouped into frames where each frame contains the samples for each

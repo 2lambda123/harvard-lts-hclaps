@@ -8,8 +8,9 @@
 
 package edu.harvard.hcl.hclaps.umid;
 
-import edu.harvard.hcl.hclaps.util.*;
-import java.text.*;
+import java.text.DecimalFormat;
+
+import edu.harvard.hcl.hclaps.util.ByteConvertor;
 
 /**
  * @author Robert La Ferla
@@ -177,7 +178,7 @@ public class ISO6709 {
 
 		str += df.format(latitude.getDecimalDegrees());
 
-		lon = new Double(longitude.getDecimalDegrees());
+		lon = longitude.getDecimalDegrees();
 		if (longitude.getDecimalDegrees() >= 0.0) {
 			str += "+";
 		}

@@ -10,9 +10,9 @@ package edu.harvard.hcl.hclaps.umid;
 
 import java.io.File;
 
-import org.jdom.Document;
-import org.jdom.Element;
-import org.jdom.input.SAXBuilder;
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.input.SAXBuilder;
 
 import edu.harvard.hcl.hclaps.util.ByteConvertor;
 import edu.harvard.hcl.hclaps.util.InvalidArgumentException;

@@ -8,9 +8,12 @@
 
 package edu.harvard.hcl.hclaps.bwav.chunks;
 
-import java.io.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.*;
+import java.io.IOException;
+import java.util.Iterator;
+
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFRandomAccessFile;
+import edu.harvard.hcl.hclaps.bwav.WAVEFile;
 
 /**
  * The RIFF chunk is a required chunk for all RIFF files.  It is always the very first chunk in the file.

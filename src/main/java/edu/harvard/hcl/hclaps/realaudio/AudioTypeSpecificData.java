@@ -8,9 +8,10 @@
 
 package edu.harvard.hcl.hclaps.realaudio;
 
-import java.io.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.*;
+import java.io.IOException;
+
+import edu.harvard.hcl.hclaps.bwav.IFFRandomAccessFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
 
 public class AudioTypeSpecificData extends BaseTypeSpecificData implements Cloneable {
 	public static final int ID = 0x2E7261FD; //.raf0xfd

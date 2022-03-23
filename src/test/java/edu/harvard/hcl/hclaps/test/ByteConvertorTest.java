@@ -8,8 +8,8 @@
 
 package edu.harvard.hcl.hclaps.test;
 
+import edu.harvard.hcl.hclaps.util.ByteConvertor;
 import junit.framework.TestCase;
-import edu.harvard.hcl.hclaps.util.*;
 
 public class ByteConvertorTest extends TestCase {
 

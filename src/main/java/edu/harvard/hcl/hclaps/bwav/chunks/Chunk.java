@@ -8,9 +8,12 @@
 
 package edu.harvard.hcl.hclaps.bwav.chunks;
 
-import java.io.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.*;
+import java.io.IOException;
+
+import edu.harvard.hcl.hclaps.bwav.Chunkable;
+import edu.harvard.hcl.hclaps.bwav.IFFRandomAccessFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFRandomAccessFile;
 
 /**
  * Chunk is the super class of all chunks.

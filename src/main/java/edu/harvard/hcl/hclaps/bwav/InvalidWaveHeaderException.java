@@ -13,6 +13,9 @@ package edu.harvard.hcl.hclaps.bwav;
  */
 
 public class InvalidWaveHeaderException extends Exception {
+
+    private static final long serialVersionUID = 1L;
+
     public InvalidWaveHeaderException(String str) {
         super(str);
     }

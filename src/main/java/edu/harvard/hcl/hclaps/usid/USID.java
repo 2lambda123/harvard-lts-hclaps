@@ -8,11 +8,17 @@
 
 package edu.harvard.hcl.hclaps.usid;
 
-import java.io.*;
-import java.util.*;
-import org.jdom.input.*;
-import org.jdom.*;
-import edu.harvard.hcl.hclaps.util.*;
+import java.io.File;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.Random;
+
+import org.jdom2.Document;
+import org.jdom2.Element;
+import org.jdom2.input.SAXBuilder;
+
+import edu.harvard.hcl.hclaps.util.InvalidArgumentException;
 
 /**
  * A USID is a Unique Source Identifier (EBU R99-1999).

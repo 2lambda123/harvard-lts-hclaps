@@ -8,9 +8,10 @@
 
 package edu.harvard.hcl.hclaps.bwav.chunks;
 
-import java.io.*;
-import java.util.*;
-import edu.harvard.hcl.hclaps.bwav.*;
+import java.io.IOException;
+
+import edu.harvard.hcl.hclaps.bwav.RIFFFile;
+import edu.harvard.hcl.hclaps.bwav.RIFFRandomAccessFile;
 
 /**
  * A GenericChunk is a wrapper for any unsupported chunks.  While they are not decoded, they are also not discarded.

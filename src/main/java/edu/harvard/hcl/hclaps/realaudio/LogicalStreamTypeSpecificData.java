@@ -8,8 +8,9 @@
 
 package edu.harvard.hcl.hclaps.realaudio;
 
-import java.io.*;
-import java.util.*;
+import java.io.IOException;
+import java.util.ArrayList;
+
 import edu.harvard.hcl.hclaps.bwav.IFFRandomAccessFile;
 
 public class LogicalStreamTypeSpecificData extends BaseTypeSpecificData implements Cloneable {
