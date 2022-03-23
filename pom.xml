@@ -70,7 +70,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>edu.harvard.huit.lts</groupId>
+            <groupId>edu.harvard.lts.tools</groupId>
             <artifactId>aes</artifactId>
             <version>${aes.version}</version>
         </dependency>
