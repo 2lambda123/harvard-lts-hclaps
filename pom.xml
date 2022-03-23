@@ -30,7 +30,7 @@
         <commons-csv.version>1.0</commons-csv.version>
         <slf4j.version>1.7.36</slf4j.version>
         <log4j.version>2.17.2</log4j.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <mvn-compiler-plugin.version>3.8.1</mvn-compiler-plugin.version>
         <mvn-jar-plugin.version>3.2.0</mvn-jar-plugin.version>
     </properties>
