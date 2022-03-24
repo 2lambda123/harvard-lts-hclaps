@@ -20,7 +20,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.8</java.version>
-        <aes.version>31.4.0-SNAPSHOT</aes.version>
+        <aes.version>31.4.0</aes.version>
         <aes-model.version>1.5.0_06-64</aes-model.version>
         <audiomarker.version>1.6.0_65-b14-462-11M4609</audiomarker.version>
         <jdom.version>2.0.6.1</jdom.version>
