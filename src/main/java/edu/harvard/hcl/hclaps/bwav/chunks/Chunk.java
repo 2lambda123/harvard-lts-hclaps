@@ -177,8 +177,6 @@ public abstract class Chunk implements Cloneable {
 	
 	/**
 	 * Returns a clone of the Chunk.
-	 *
-	 * @throws CloneNotSupportedException
 	 */
 	public Object clone() {
         try {

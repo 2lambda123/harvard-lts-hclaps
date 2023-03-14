@@ -125,24 +125,9 @@
             <version>${saxonhe.version}</version>
         </dependency>
         <dependency>
-            <groupId>castor</groupId>
-            <artifactId>castor</artifactId>
-            <version>${castor.version}</version>
-        </dependency>
-        <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-csv</artifactId>
             <version>${commons-csv.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.aes</groupId>
-            <artifactId>aes-model</artifactId>
-            <version>${aes-model.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>edu.harvard.hcl</groupId>
-            <artifactId>audiomarker</artifactId>
-            <version>${audiomarker.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
