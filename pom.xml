@@ -178,11 +178,6 @@
                     <name>Harvard LTS Dependency Repository</name>
                     <url>${lts-artifactory-url}/lts-libs-all</url>
                 </repository>
-                <repository>
-                    <id>local-maven-repo</id>
-                    <name>Local file system for temporarily holding non-repo JAR files</name>
-                    <url>file://${project.basedir}/lib-local/</url>
-                </repository>
             </repositories>
             <pluginRepositories>
                 <pluginRepository>
