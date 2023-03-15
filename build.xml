@@ -39,7 +39,6 @@
     </target>
 
     <target name="jar" depends="compile" description="Build jar">
-        <copy file="${src}/edu/harvard/hcl/hclaps/util/tcfdata.xml" todir="${bin}/edu/harvard/hcl/hclaps/util" overwrite="true"/>
         <mkdir dir="${dist}"/>
         <jar jarfile="${jarfile}" basedir="${bin}" manifest="Manifest"/>
     </target>

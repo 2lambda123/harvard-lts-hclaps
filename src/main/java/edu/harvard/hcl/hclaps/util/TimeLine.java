@@ -8,8 +8,6 @@
 
 package edu.harvard.hcl.hclaps.util;
 import com.therockquarry.aes31.adl.*;
-import edu.harvard.hcl.hclaps.audiomarker.*;
-import edu.harvard.hcl.hclaps.audiomarker.types.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.*;
@@ -170,60 +168,6 @@ public class TimeLine {
 			}
 		}
 	}		
-	
-	/**
-	 * Creates a new TimeLine from an audio marker document ignoring all PQ_INDEX markers
-	 * and optionally including gaps between PQ_END and next PQ_START markers.
-	 */
-	public TimeLine(HclAudioMarkerDocumentElementType markerDocument, boolean includeGaps) {
-		ArrayList<MarkerElementType> allMarkerList, markerList;
-		Iterator<MarkerElementType> it;
-		ListIterator<MarkerElementType> lit;
-		
-		markerList = new ArrayList<MarkerElementType>();
-		
-		sampleRate = markerDocument.getProjectSampleRate();
-		// Ignore all index and comment markers by creating a new list with only start and end markers.
-		allMarkerList = (ArrayList<MarkerElementType>)markerDocument.getMarkerAsReference();
-		it = allMarkerList.iterator();
-		while (it.hasNext()) {
-			MarkerElementType marker;
-
-			marker = it.next();
-			if (marker.getMarkerType() == MarkerTypeAttributeType.PQ_START || marker.getMarkerType() == MarkerTypeAttributeType.PQ_END) {
-				markerList.add(marker);
-			}
-		}	
-		lit = markerList.listIterator();
-		while (lit.hasNext()) {
-			MarkerElementType marker;
-			
-			marker = lit.next();
-			if (marker.getMarkerType() == MarkerTypeAttributeType.PQ_START) {
-				TimeRange tr;
-				MarkerElementType nextMarker;
-
-				nextMarker = markerList.get(lit.nextIndex());
-
-				if (includeGaps == true) {
-					if (nextMarker.getMarkerType() == MarkerTypeAttributeType.PQ_END) {
-						// Jump to the PQ_END marker
-						nextMarker = lit.next();
-						if (lit.hasNext()) {
-							// This should always be a PQ_START.
-							nextMarker = markerList.get(lit.nextIndex());
-						}
-					}
-				}
-				tr = new TimeRange();
-				tr.setObject(marker);
-				tr.setStartSamples(marker.getSamplePosition());
-				tr.setEndSamples(nextMarker.getSamplePosition());
-								
-				addTimeRange(tr);
-			}
-		}
-	}
 	
 	/**
 	 * Converts all time ranges in the time line to the specified sample rate.
