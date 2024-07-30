@@ -146,37 +146,16 @@
         </dependency>
     </dependencies>
 
-    <repositories>
+    <distributionManagement>
+        <!-- repository URL and credentials set up in local .m2/settings.xml -->
         <repository>
             <id>lts-maven</id>
             <name>Harvard LTS Dependency Repository</name>
             <url>${lts-artifactory-url}/lts-maven</url>
         </repository>
-        <repository>
-            <id>local-maven-repo</id>
-            <name>Local file system for temporarily holding non-repo JAR files</name>
-            <url>file://${project.basedir}/lib-local/</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>lts-maven</id>
-            <name>Harvard LTS Plugin Repository</name>
-            <url>${lts-artifactory-url}/lts-maven</url>
-        </pluginRepository>
-    </pluginRepositories>
-
-    <distributionManagement>
-        <!-- repository URL and credentials set up in local .m2/settings.xml -->
-        <repository>
-            <id>lts-maven</id>
-            <name>Harvard LTS internal Release Repository</name>
-            <url>${lts-artifactory-url}/lts-maven</url>
-        </repository>
         <snapshotRepository>
             <id>lts-maven</id>
-            <name>Harvard LTS internal Snapshot Repository</name>
+            <name>Harvard LTS Dependency Repository</name>
             <url>${lts-artifactory-url}/lts-maven</url>
         </snapshotRepository>
     </distributionManagement>
