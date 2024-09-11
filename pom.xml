@@ -24,7 +24,7 @@
         <aes-model.version>1.5.0_06-64</aes-model.version>
         <audiomarker.version>1.6.0_65-b14-462-11M4609</audiomarker.version>
         <jdom.version>2.0.6.1</jdom.version>
-        <xercesImpl.version>2.8.1</xercesImpl.version>
+        <xercesImpl.version>2.12.2</xercesImpl.version>
         <saxonhe.version>9.8.0-10</saxonhe.version>
         <castor.version>0.9.5.4</castor.version>
         <commons-csv.version>1.0</commons-csv.version>
